@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.3" name="ATL_DG_F4">
+  <Target name="ATL_DG_F4" isCurrent="1">
+    <Device manufacturerId="9" manufacturerName="ST" chipId="342" chipName="STM32F405RG" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value="-std=c99"/>
+        <Option name="FPU" value="2"/>
+        <Option name="SupportCPlusplus" value="1"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="STM32F405RG"/>
+          <Define name="STM32F4XX"/>
+          <Define name="HSE_VALUE=8000000"/>
+          <Define name="USE_STM32F4_DISCOVERY"/>
+          <Define name="__FPU_USED"/>
+          <Define name="ARM_MATH_CM4"/>
+          <Define name="__FPU_PRESENT"/>
+          <Define name="USE32BITFFT"/>
+          <Define name="USE_STDPERIPH_DRIVER"/>
+          <Define name="__ASSEMBLY__"/>
+          <Define name="USE_USB_OTG_FS"/>
+          <Define name="SUPPORT_CPLUSPLUS"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <Option name="UserEditLinker" value="-lstdc++; "/>
+        <Option name="nostartfiles" value="0"/>
+        <LinkedLibraries>
+          <Libset dir="" libs="arm_cortexm4lf_math"/>
+          <Libset dir="c:\program files (x86)\gnu tools arm embedded\4.9 2014q4\arm-none-eabi\lib\armv7e-m\fpu\" libs="m"/>
+          <Libset dir="c:\program files (x86)\gnu tools arm embedded\4.9 2014q4\lib\gcc\arm-none-eabi\4.9.3\armv7e-m\fpu\" libs="gcc"/>
+        </LinkedLibraries>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00100000" startValue="0x08000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00020000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="0x00010000" startValue="0x10000000"/>
+        </MemoryAreas>
+        <LocateLinkFile path="../../../../../coocox/coide/configuration/programdata/atl_dg_f4/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="ATL_DG_F4"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ColinkEx"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="STM32F4xx_1024.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="30" name="C Library" path="" type="2"/>
+    <Component id="54" name="M4 CMSIS Core" path="" type="2"/>
+    <Component id="500" name="CMSIS BOOT" path="" type="2"/>
+    <Component id="501" name="RCC" path="" type="2"/>
+    <Component id="504" name="GPIO" path="" type="2"/>
+    <Component id="505" name="EXTI" path="" type="2"/>
+    <Component id="509" name="SPI" path="" type="2"/>
+    <Component id="511" name="DMA" path="" type="2"/>
+    <Component id="513" name="TIM" path="" type="2"/>
+    <Component id="514" name="ADC" path="" type="2"/>
+    <Component id="515" name="DAC" path="" type="2"/>
+    <Component id="517" name="USART" path="" type="2"/>
+    <Component id="524" name="MISC" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_abs_q7.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_abs_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_dct4_q31.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_dct4_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_init_q15.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_init_q15.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_usart.h" path="cmsis_lib/include/stm32f4xx_usart.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_offset_q31.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_offset_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FastMathFunctions/arm_sin_q31.c" path="cmsis/DSP_Lib/Source/FastMathFunctions/arm_sin_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_init_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_init_q15.c" type="1"/>
+    <File name="ff/src/ffconf.h" path="ff/src/ffconf.h" type="1"/>
+    <File name="USB_Lib/usbd_req.c" path="USB_Lib/usbd_req.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FastMathFunctions" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_mean_q15.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_mean_q15.c" type="1"/>
+    <File name="USB_Lib/usb_bsp.c" path="USB_Lib/usb_bsp.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_init_q15.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_init_q15.c" type="1"/>
+    <File name="BLE_Module/cmd_def.h" path="BLE_Module/cmd_def.h" type="1"/>
+    <File name="DOGM_LCD_LIB/driver_dogm128.h" path="DOGM_LCD_LIB/driver_dogm128.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_fill_q15.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_fill_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_rms_f32.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_rms_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_fast_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_fast_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_max_q31.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_max_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_init_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_init_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_max_f32.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_max_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_scale_f32.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_scale_f32.c" type="1"/>
+    <File name="DOGM_LCD_LIB/driver_dogm128.c" path="DOGM_LCD_LIB/driver_dogm128.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions" path="" type="2"/>
+    <File name="USB_Lib/usb_bsp.h" path="USB_Lib/usb_bsp.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_mult_f32.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_mult_f32.c" type="1"/>
+    <File name="USB_Lib" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/ControllerFunctions/arm_pid_init_q31.c" path="cmsis/DSP_Lib/Source/ControllerFunctions/arm_pid_init_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_min_f32.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_min_f32.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_spi.h" path="cmsis_lib/include/stm32f4xx_spi.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_scale_q7.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_scale_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_fast_opt_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_fast_opt_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q15.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_power_q15.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_power_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_negate_q31.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_negate_q31.c" type="1"/>
+    <File name="ff/src/option/unicode.c" path="ff/src/option/unicode.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Include/core_cmInstr.h" path="cmsis/DSP_Lib/Include/core_cmInstr.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_max_q15.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_max_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Include/core_cm4_simd.h" path="cmsis/DSP_Lib/Include/core_cm4_simd.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_f32.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_gpio.c" path="cmsis_lib/source/stm32f4xx_gpio.c" type="1"/>
+    <File name="USB_Lib/usb_core.c" path="USB_Lib/usb_core.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_dma.c" path="cmsis_lib/source/stm32f4xx_dma.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FastMathFunctions/arm_cos_q31.c" path="cmsis/DSP_Lib/Source/FastMathFunctions/arm_cos_q31.c" type="1"/>
+    <File name="Circle_fitting.c" path="Circle_fitting.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_opt_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_opt_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_fast_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_fast_q15.c" type="1"/>
+    <File name="BLE_Module/apitypes.h" path="BLE_Module/apitypes.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q31.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_q7_to_q15.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_q7_to_q15.c" type="1"/>
+    <File name="ff/src/diskio.h" path="ff/src/diskio.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_q7_to_q31.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_q7_to_q31.c" type="1"/>
+    <File name="USB_Lib/usbd_ioreq.c" path="USB_Lib/usbd_ioreq.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_f32.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_adc.c" path="cmsis_lib/source/stm32f4xx_adc.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_tim.h" path="cmsis_lib/include/stm32f4xx_tim.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FastMathFunctions/arm_sqrt_q15.c" path="cmsis/DSP_Lib/Source/FastMathFunctions/arm_sqrt_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_init_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_init_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_q15.c" type="1"/>
+    <File name="USB_Lib/usbd_ioreq.h" path="USB_Lib/usbd_ioreq.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_q31.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_q31.c" type="1"/>
+    <File name="USB_Lib/usb_core.h" path="USB_Lib/usb_core.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ControllerFunctions/arm_pid_reset_q31.c" path="cmsis/DSP_Lib/Source/ControllerFunctions/arm_pid_reset_q31.c" type="1"/>
+    <File name="Circle_fitting.h" path="Circle_fitting.h" type="1"/>
+    <File name="Phase_Unwrapping.c" path="Phase_Unwrapping.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_fast_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_fast_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_copy_q31.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_copy_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_f32.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_fill_q7.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_fill_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_rms_q15.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_rms_q15.c" type="1"/>
+    <File name="USB_Lib/usbd_req.h" path="USB_Lib/usbd_req.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_q15.c" type="1"/>
+    <File name="User_String/user_string.h" path="User_String/user_string.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_inverse_f32.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_inverse_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_init_q31.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_init_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_q7.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_trans_f32.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_trans_f32.c" type="1"/>
+    <File name="ff/src/integer.h" path="ff/src/integer.h" type="1"/>
+    <File name="BLE_Module/cmd_def.c" path="BLE_Module/cmd_def.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q31.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q31.c" type="1"/>
+    <File name="USB_Lib/usbd_conf.h" path="USB_Lib/usbd_conf.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_q7.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_trans_q31.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_trans_q31.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_exti.c" path="cmsis_lib/source/stm32f4xx_exti.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_q7.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_q7.c" type="1"/>
+    <File name="User_String" path="" type="2"/>
+    <File name="USB_Lib/usb_regs.h" path="USB_Lib/usb_regs.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_init_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_init_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_scale_q31.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_scale_q31.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_gpio.h" path="cmsis_lib/include/stm32f4xx_gpio.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_q31.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_conj_q15.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_conj_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_fast_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_fast_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_init_q15.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_init_q15.c" type="1"/>
+    <File name="PGA_Ctrl.h" path="PGA_Ctrl.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_negate_q15.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_negate_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ControllerFunctions/arm_pid_reset_f32.c" path="cmsis/DSP_Lib/Source/ControllerFunctions/arm_pid_reset_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_opt_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_opt_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_bitreversal.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_bitreversal.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_init_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_init_q15.c" type="1"/>
+    <File name="cmsis/arm_common_tables.h" path="cmsis/arm_common_tables.h" type="1"/>
+    <File name="stm32F4xx_fft.c" path="stm32F4xx_fft.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_init_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_init_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_power_q31.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_power_q31.c" type="1"/>
+    <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
+    <File name="PGA_Ctrl.c" path="PGA_Ctrl.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_rfft_q31.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_rfft_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ControllerFunctions/arm_pid_init_f32.c" path="cmsis/DSP_Lib/Source/ControllerFunctions/arm_pid_init_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_scale_q31.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_scale_q31.c" type="1"/>
+    <File name="User_String/user_string.c" path="User_String/user_string.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_std_q15.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_std_q15.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_dac.c" path="cmsis_lib/source/stm32f4xx_dac.c" type="1"/>
+    <File name="stm32F4xx_fft.h" path="stm32F4xx_fft.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_float_to_q31.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_float_to_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_float_to_q15.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_float_to_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_fast_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_fast_q31.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_rcc.h" path="cmsis_lib/include/stm32f4xx_rcc.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ControllerFunctions/arm_sin_cos_f32.c" path="cmsis/DSP_Lib/Source/ControllerFunctions/arm_sin_cos_f32.c" type="1"/>
+    <File name="cmsis_boot/startup/startup_stm32f4xx.c" path="cmsis_boot/startup/startup_stm32f4xx.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_copy_q7.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_copy_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_mult_q7.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_mult_q7.c" type="1"/>
+    <File name="USB_Lib/usbd_desc.c" path="USB_Lib/usbd_desc.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Include/core_cm0.h" path="cmsis/DSP_Lib/Include/core_cm0.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_q15.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_q15.c" type="1"/>
+    <File name="USB_Lib/usbd_core.c" path="USB_Lib/usbd_core.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions" path="" type="2"/>
+    <File name="cmsis_lib/include/stm32f4xx_adc.h" path="cmsis_lib/include/stm32f4xx_adc.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ControllerFunctions/arm_sin_cos_q31.c" path="cmsis/DSP_Lib/Source/ControllerFunctions/arm_sin_cos_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_q15.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_q15.c" type="1"/>
+    <File name="USB_Lib/usbd_desc.h" path="USB_Lib/usbd_desc.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_min_q15.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_min_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_f32.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_rfft_f32.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_rfft_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_fast_q31.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_fast_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_add_f32.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_add_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_fast_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_fast_q31.c" type="1"/>
+    <File name="FIR_Filter.c" path="FIR_Filter.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_mean_q31.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_mean_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_dct4_init_q31.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_dct4_init_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_init_f32.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_init_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_init_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_init_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_opt_q7.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_opt_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_mean_q7.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_mean_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_f32.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_f32.c" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_real_q31.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_real_q31.c" type="1"/>
+    <File name="cmsis/core_cm4.h" path="cmsis/core_cm4.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_init_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_init_q31.c" type="1"/>
+    <File name="DOGM_LCD_LIB/graphics.c" path="DOGM_LCD_LIB/graphics.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c" type="1"/>
+    <File name="cmsis_lib/source/misc.c" path="cmsis_lib/source/misc.c" type="1"/>
+    <File name="USB_Lib/usbd_usr.h" path="USB_Lib/usbd_usr.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_init_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_init_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_negate_f32.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_negate_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_q15_to_q31.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_q15_to_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_init_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_init_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Include/arm_math.h" path="cmsis/DSP_Lib/Include/arm_math.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_offset_f32.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_offset_f32.c" type="1"/>
+    <File name="cmsis_boot/stm32f4xx_conf.h" path="cmsis_boot/stm32f4xx_conf.h" type="1"/>
+    <File name="Menu" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/FastMathFunctions/arm_sin_q15.c" path="cmsis/DSP_Lib/Source/FastMathFunctions/arm_sin_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_init_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_init_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_f32.c" type="1"/>
+    <File name="USB_Lib/usbd_core.h" path="USB_Lib/usbd_core.h" type="1"/>
+    <File name="DOGM_LCD_LIB/graphics.h" path="DOGM_LCD_LIB/graphics.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_sub_q15.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_sub_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_init_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_init_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_scale_f32.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_scale_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_q15_to_float.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_q15_to_float.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/CommonTables/arm_common_tables.c" path="cmsis/DSP_Lib/Source/CommonTables/arm_common_tables.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_fill_f32.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_fill_f32.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_exti.h" path="cmsis_lib/include/stm32f4xx_exti.h" type="1"/>
+    <File name="USB_Lib/usbd_usr.c" path="USB_Lib/usbd_usr.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_offset_q15.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_offset_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q15.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Include/arm_common_tables.h" path="cmsis/DSP_Lib/Include/arm_common_tables.h" type="1"/>
+    <File name="ff/src/option/syscall.c" path="ff/src/option/syscall.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_var_f32.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_var_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_f32.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_f32.c" type="1"/>
+    <File name="syscalls" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_mean_f32.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_mean_f32.c" type="1"/>
+    <File name="DOGM_LCD_LIB" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_fast_q15.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_fast_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_q15.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FastMathFunctions/arm_sin_f32.c" path="cmsis/DSP_Lib/Source/FastMathFunctions/arm_sin_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_add_q15.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_add_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_fast_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_fast_q15.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_usart.c" path="cmsis_lib/source/stm32f4xx_usart.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_conj_q31.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_conj_q31.c" type="1"/>
+    <File name="USB_Lib/usbd_def.h" path="USB_Lib/usbd_def.h" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_dac.h" path="cmsis_lib/include/stm32f4xx_dac.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_q15_to_q7.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_q15_to_q7.c" type="1"/>
+    <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
+    <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
+    <File name="stm32fxxx_it.h" path="stm32fxxx_it.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_q31_to_float.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_q31_to_float.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions" path="" type="2"/>
+    <File name="USB_Lib/usb_defines.h" path="USB_Lib/usb_defines.h" type="1"/>
+    <File name="DOGM_LCD_LIB/aux_routines.h" path="DOGM_LCD_LIB/aux_routines.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_init_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_init_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_q7.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_max_q7.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_max_q7.c" type="1"/>
+    <File name="DOGM_LCD_LIB/aux_routines.c" path="DOGM_LCD_LIB/aux_routines.c" type="1"/>
+    <File name="gcode_parser.c" path="gcode_parser.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_fill_q31.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_fill_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/CommonTables" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_shift_q15.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_shift_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_q7_to_float.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_q7_to_float.c" type="1"/>
+    <File name="USB_Lib/usbd_cdc_vcp.c" path="USB_Lib/usbd_cdc_vcp.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_rfft_q15.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_rfft_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Include/core_cm3.h" path="cmsis/DSP_Lib/Include/core_cm3.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_opt_q7.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_opt_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_rms_q31.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_rms_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_std_q31.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_std_q31.c" type="1"/>
+    <File name="gcode_parser.h" path="gcode_parser.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_rcc.c" path="cmsis_lib/source/stm32f4xx_rcc.c" type="1"/>
+    <File name="stm32fxxx_it.c" path="stm32fxxx_it.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_dct4_init_f32.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_dct4_init_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_add_q31.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_add_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_init_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_init_f32.c" type="1"/>
+    <File name="cmsis_lib" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_dct4_f32.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_dct4_f32.c" type="1"/>
+    <File name="USB_Lib/usbd_cdc_vcp.h" path="USB_Lib/usbd_cdc_vcp.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_shift_q31.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_shift_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_add_f32.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_add_f32.c" type="1"/>
+    <File name="cmsis_lib/include/misc.h" path="cmsis_lib/include/misc.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_shift_q7.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_shift_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ControllerFunctions" path="" type="2"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="util.h" path="util.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_sub_f32.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_sub_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_q31.c" type="1"/>
+    <File name="ff/src/option" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_scale_q15.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_scale_q15.c" type="1"/>
+    <File name="BLE_Module/BLE.h" path="BLE_Module/BLE.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_opt_q7.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_opt_q7.c" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_q15.c" type="1"/>
+    <File name="util.c" path="util.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_init_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_init_f32.c" type="1"/>
+    <File name="stm32adc.c" path="stm32adc.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_init_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_init_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_q7.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_init_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_init_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_q7.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_power_f32.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_power_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ControllerFunctions/arm_pid_init_q15.c" path="cmsis/DSP_Lib/Source/ControllerFunctions/arm_pid_init_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_opt_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_opt_q15.c" type="1"/>
+    <File name="BLE_Module/BLE.c" path="BLE_Module/BLE.c" type="1"/>
+    <File name="cmsis_boot/system_stm32f4xx.h" path="cmsis_boot/system_stm32f4xx.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_q31.c" type="1"/>
+    <File name="BLE_Module/commands.c" path="BLE_Module/commands.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FastMathFunctions/arm_cos_q15.c" path="cmsis/DSP_Lib/Source/FastMathFunctions/arm_cos_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_real_f32.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_real_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q15.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_std_f32.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_std_f32.c" type="1"/>
+    <File name="ff/src" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_abs_f32.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_abs_f32.c" type="1"/>
+    <File name="ff" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_init_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_init_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_negate_q7.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_negate_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_rfft_init_f32.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_rfft_init_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_sub_q7.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_sub_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FastMathFunctions/arm_cos_f32.c" path="cmsis/DSP_Lib/Source/FastMathFunctions/arm_cos_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_add_q7.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_add_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_min_q31.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_min_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_q31.c" type="1"/>
+    <File name="stm32f4_discovery.h" path="stm32f4_discovery.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_trans_q15.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_trans_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_offset_q7.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_offset_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_f32.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_abs_q31.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_abs_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_q31.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_min_q7.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_min_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_sub_f32.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_sub_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_scale_q15.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_scale_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Include/core_cm4.h" path="cmsis/DSP_Lib/Include/core_cm4.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_q15.c" type="1"/>
+    <File name="cmsis_boot/stm32f4xx.h" path="cmsis_boot/stm32f4xx.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_spi.c" path="cmsis_lib/source/stm32f4xx_spi.c" type="1"/>
+    <File name="DOGM_LCD_LIB/font.h" path="DOGM_LCD_LIB/font.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_q31.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_dct4_init_q15.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_dct4_init_q15.c" type="1"/>
+    <File name="USB_Lib/usbd_cdc_core.h" path="USB_Lib/usbd_cdc_core.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_copy_f32.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_copy_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_var_q15.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_var_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_sub_q31.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_sub_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c" type="1"/>
+    <File name="ff/src/ff.c" path="ff/src/ff.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_fast_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_fast_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_mult_q15.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_mult_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_sub_q31.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_sub_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_fast_opt_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_fast_opt_q15.c" type="1"/>
+    <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_copy_q15.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_copy_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_q15.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_var_q31.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_var_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions" path="" type="2"/>
+    <File name="cmsis_boot/system_stm32f4xx.c" path="cmsis_boot/system_stm32f4xx.c" type="1"/>
+    <File name="stm32adc.h" path="stm32adc.h" type="1"/>
+    <File name="cmsis/DSP_Lib" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_add_q15.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_add_q15.c" type="1"/>
+    <File name="ff/src/ff.h" path="ff/src/ff.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Include/core_cmFunc.h" path="cmsis/DSP_Lib/Include/core_cmFunc.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_init_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_init_f32.c" type="1"/>
+    <File name="cmsis" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_abs_q15.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_abs_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_fast_opt_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_fast_opt_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df2T_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df2T_f32.c" type="1"/>
+    <File name="ff/src/00readme.txt" path="ff/src/00readme.txt" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FastMathFunctions/arm_sqrt_q31.c" path="cmsis/DSP_Lib/Source/FastMathFunctions/arm_sqrt_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_power_q7.c" path="cmsis/DSP_Lib/Source/StatisticsFunctions/arm_power_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_init_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_init_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Include" path="" type="2"/>
+    <File name="defines.h" path="defines.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_dct4_q15.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_dct4_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_init_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_init_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_mult_q31.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_mult_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_q31.c" type="1"/>
+    <File name="USB_Lib/usb_dcd_int.c" path="USB_Lib/usb_dcd_int.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_fast_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_fast_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_f32.c" type="1"/>
+    <File name="BGT24_Ctrl.c" path="BGT24_Ctrl.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ControllerFunctions/arm_pid_reset_q15.c" path="cmsis/DSP_Lib/Source/ControllerFunctions/arm_pid_reset_q15.c" type="1"/>
+    <File name="USB_Lib/usb_dcd_int.h" path="USB_Lib/usb_dcd_int.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_init_q31.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_init_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_q31_to_q7.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_q31_to_q7.c" type="1"/>
+    <File name="USB_Lib/usb_conf.h" path="USB_Lib/usb_conf.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_q31.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_q15.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_q15.c" type="1"/>
+    <File name="cmsis_lib/source" path="" type="2"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_q7.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_init_f32.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_cfft_radix2_init_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_conj_f32.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_conj_f32.c" type="1"/>
+    <File name="ff/src/sd_spi_stm32.c" path="ff/src/sd_spi_stm32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_q15.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_correlate_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_sub_q15.c" path="cmsis/DSP_Lib/Source/BasicMathFunctions/arm_sub_q15.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions" path="" type="2"/>
+    <File name="BGT24_Ctrl.h" path="BGT24_Ctrl.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_float_to_q7.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_float_to_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_rfft_init_q31.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_rfft_init_q31.c" type="1"/>
+    <File name="USB_Lib/usbd_cdc_core.c" path="USB_Lib/usbd_cdc_core.c" type="1"/>
+    <File name="BLE_Module" path="" type="2"/>
+    <File name="stm32serial.c" path="stm32serial.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q31.c" path="cmsis/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_init_f32.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_init_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_init_q7.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_init_q7.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_fast_q31.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_fast_q31.c" type="1"/>
+    <File name="dac.c" path="dac.c" type="1"/>
+    <File name="USB_Lib/usb_dcd.c" path="USB_Lib/usb_dcd.c" type="1"/>
+    <File name="Menu/menu.h" path="Menu/menu.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_init_q31.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_init_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/SupportFunctions/arm_q31_to_q15.c" path="cmsis/DSP_Lib/Source/SupportFunctions/arm_q31_to_q15.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_dma.h" path="cmsis_lib/include/stm32f4xx_dma.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_tim.c" path="cmsis_lib/source/stm32f4xx_tim.c" type="1"/>
+    <File name="stm32serial.h" path="stm32serial.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_add_q31.c" path="cmsis/DSP_Lib/Source/MatrixFunctions/arm_mat_add_q31.c" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/TransformFunctions/arm_rfft_init_q15.c" path="cmsis/DSP_Lib/Source/TransformFunctions/arm_rfft_init_q15.c" type="1"/>
+    <File name="dac.h" path="dac.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source" path="" type="2"/>
+    <File name="cmsis_lib/include" path="" type="2"/>
+    <File name="Menu/menu.c" path="Menu/menu.c" type="1"/>
+    <File name="USB_Lib/usb_dcd.h" path="USB_Lib/usb_dcd.h" type="1"/>
+    <File name="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_f32.c" path="cmsis/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_f32.c" type="1"/>
+  </Files>
+</Project>

@@ -1,0 +1,1602 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\LIZ4ABT\Desktop\ATL_DG_F4\Menu /I..\..\..\..\..\Users\LIZ4ABT\Desktop\ATL_DG_F4\DOGM_LCD_LIB /I..\..\..\..\..\Users\LIZ4ABT\Desktop\ATL_DG_F4\cmsis\DSP_Lib /I..\..\..\..\..\Users\LIZ4ABT\Desktop\ATL_DG_F4\cmsis_boot /I..\..\..\..\..\Users\LIZ4ABT\Desktop\ATL_DG_F4\ff /I..\..\..\..\..\Users\LIZ4ABT\Desktop /I..\..\..\..\..\Users\LIZ4ABT\Desktop\ATL_DG_F4 /I..\..\..\..\..\Users\LIZ4ABT\Desktop\ATL_DG_F4\cmsis_lib\include /I..\..\..\..\..\Users\LIZ4ABT\Desktop\ATL_DG_F4\cmsis\DSP_Lib\Include /I..\..\..\..\..\Users\LIZ4ABT\Desktop\ATL_DG_F4\BLE_Module /I..\..\..\..\..\Users\LIZ4ABT\Desktop\ATL_DG_F4\ff\src /I..\..\..\..\..\Users\LIZ4ABT\Desktop\ATL_DG_F4\USB_Lib /I..\..\..\..\..\Users\LIZ4ABT\Desktop\ATL_DG_F4\cmsis_lib /I..\..\..\..\..\Users\LIZ4ABT\Desktop\ATL_DG_F4\cmsis /I..\..\..\..\..\Users\LIZ4ABT\Desktop\ATL_DG_F4\User_String /I..\..\..\..\..\Users\LIZ4ABT">
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_copy_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_sparse_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_lms_norm_init_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_rfft_init_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_mult_q7.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_fill_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\util.h" lastModified="1402e9b6a80">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_rfft_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ControllerFunctions\arm_pid_reset_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\util.c" lastModified="14208702e98">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\util.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_iir_lattice_init_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_lattice_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_max_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_q31_to_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FastMathFunctions\arm_cos_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13ff22999a0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm32serial.h" lastModified="14015d446c0">
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+         <include file="..\..\..\USB_Lib\usb_regs.h"/>
+         <include file="..\..\..\USB_Lib\usb_defines.h"/>
+         <include file="..\..\..\USB_Lib\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_scale_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\stm32serial.c" lastModified="14071536af8">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\USB_Lib\usb_core.h"/>
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+         <include file="..\..\..\USB_Lib\usb_dcd.h"/>
+         <include file="..\..\..\USB_Lib\usbd_conf.h"/>
+         <include file="..\..\..\USB_Lib\usbd_cdc_vcp.h"/>
+         <include file="..\..\..\USB_Lib\usbd_cdc_core.h"/>
+         <include file="..\..\..\stm32serial.h"/>
+         <include file="..\..\..\util.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_decimate_init_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_partial_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="14019abd3d0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_mult_fast_q15.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_sub_q31.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_copy_q7.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_mag_squared_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FastMathFunctions\arm_sqrt_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_conj_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_sub_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_correlate_q7.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_scale_q15.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_lms_norm_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h" lastModified="13ba95e3e00">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\core_cm4.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\core_cm3.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\core_cm0.h"/>
+         <include file="..\..\..\cmsis\ARMCM4.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h" lastModified="14019abd3d0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_q31_to_float.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14019ac1250">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm32F4xx_fft.h" lastModified="14e86cbfb80">
+         <include file="..\..\..\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\CommonTables\arm_common_tables.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_abs_q7.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_lattice_init_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_rms_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_partial_q7.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_cfft_radix4_init_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\stm32F4xx_fft.c" lastModified="14f1d42b475">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\stm32F4xx_fft.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+         <include file="..\..\..\stm32adc.h"/>
+         <include file="..\..\..\gcode_parser.h"/>
+         <include file="..\..\..\PGA_Ctrl.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_dcd_int.h" lastModified="1379c7e3590">
+         <include file="..\..\..\USB_Lib\usb_dcd.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_dot_prod_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_dcd_int.c" lastModified="137c89d11f0">
+         <include file="..\..\..\USB_Lib\usb_dcd_int.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_bitreversal.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_biquad_cascade_df2T_init_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_sparse_init_q7.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_correlate_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_lms_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ControllerFunctions\arm_pid_init_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_abs_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_offset_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_mult_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_init_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_power_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_cfft_radix4_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\BLE_Module\cmd_def.h" lastModified="1442f7dea28">
+         <include file="..\..\..\BLE_Module\apitypes.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_decimate_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_q7_to_float.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\BLE_Module\cmd_def.c" lastModified="1442f7dea28">
+         <include file="..\..\..\BLE_Module\cmd_def.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_min_q7.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\ff\src\option\cc949.c" lastModified="141dfdc97f0">
+         <include file="..\..\..\ff\src\ff.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_min_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_biquad_cascade_df1_fast_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13ff22582c0">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_biquad_cascade_df1_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_mean_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\PGA_Ctrl.h" lastModified="1420893e720">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_init_q31.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_fill_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_correlate_opt_q7.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\PGA_Ctrl.c" lastModified="141e00cc010">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\util.h"/>
+         <include file="..\..\..\PGA_Ctrl.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_rfft_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_fast_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_iir_lattice_init_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13ff2276720">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_lattice_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="13ff22586a8">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_sparse_init_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\FIR_Filter.c" lastModified="14f1d2f892f">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_q15_to_q7.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_interpolate_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_mult_real_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_std_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_dct4_init_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Include\core_cm4.h" lastModified="13ba95e3a18">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_mean_q7.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Phase_Unwrapping.c" lastModified="14ebfd915c0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\stm32f4_discovery.h"/>
+         <include file="..\..\..\USB_Lib\usbd_cdc_core.h"/>
+         <include file="..\..\..\util.h"/>
+         <include file="..\..\..\defines.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="141bfe90730">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_conj_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_lms_init_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Include\core_cm0.h" lastModified="13ba95e3a18">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_lms_norm_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\DOGM_LCD_LIB\font.h" lastModified="131aaca2dd0">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\DOGM_LCD_LIB\aux_routines.h" lastModified="14c2762c658">
+         <include file="..\..\..\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_rms_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\DOGM_LCD_LIB\aux_routines.c" lastModified="14c2731b7c0">
+         <include file="..\..\..\defines.h"/>
+         <include file="..\..\..\DOGM_LCD_LIB\aux_routines.h"/>
+         <include file="..\..\..\DOGM_LCD_LIB\driver_dogm128.h"/>
+         <include file="..\..\..\DOGM_LCD_LIB\graphics.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_power_q7.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_dot_prod_q7.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_q15_to_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Menu\menu.h" lastModified="141c67ef0f0">
+      </source>
+      <source file="..\..\..\DOGM_LCD_LIB\graphics.h" lastModified="131aa783188">
+      </source>
+      <source file="..\..\..\USB_Lib\usb_dcd.h" lastModified="1379c7e3590">
+         <include file="..\..\..\USB_Lib\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_decimate_fast_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Menu\menu.c" lastModified="141c662b660">
+         <include file="..\..\..\Menu\menu.h"/>
+         <include file="..\..\..\User_String\user_string.h"/>
+      </source>
+      <source file="..\..\..\DOGM_LCD_LIB\graphics.c" lastModified="131aa88bbe8">
+         <include file="..\..\..\DOGM_LCD_LIB\graphics.h"/>
+         <include file="..\..\..\DOGM_LCD_LIB\driver_dogm128.h"/>
+         <include file="..\..\..\DOGM_LCD_LIB\font.h"/>
+      </source>
+      <source file="..\..\..\cmsis\system_ARMCM4.h" lastModified="140293a0920">
+      </source>
+      <source file="..\..\..\USB_Lib\usb_dcd.c" lastModified="137aee33190">
+         <include file="..\..\..\USB_Lib\usb_dcd.h"/>
+         <include file="..\..\..\USB_Lib\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_interpolate_init_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_cfft_radix2_init_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_partial_fast_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Include\core_cm4_simd.h" lastModified="13ba95e3e00">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_fast_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_correlate_fast_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_add_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_fill_q7.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_init_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_power_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_q7_to_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_decimate_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="14019abd3d0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_copy_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_sparse_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_lms_norm_init_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_biquad_cascade_df1_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_mean_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_add_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="13ff22586a8">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\ff\src\ffconf.h" lastModified="1422cfbd190">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ControllerFunctions\arm_pid_reset_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\stm32fxxx_it.h" lastModified="1379c6d45a0">
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_sparse_init_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_q31_to_q7.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\stm32fxxx_it.c" lastModified="14015fd1410">
+         <include file="..\..\..\stm32fxxx_it.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\USB_Lib\usb_core.h"/>
+         <include file="..\..\..\USB_Lib\usbd_core.h"/>
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+         <include file="..\..\..\USB_Lib\usbd_cdc_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="13ff22586a8">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_trans_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_iir_lattice_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\ff\src\ff.h" lastModified="141dfdc97f0">
+         <include file="..\..\..\ff\src\integer.h"/>
+         <include file="..\..\..\ff\src\ffconf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="14019abd3d0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_regs.h" lastModified="13813edec60">
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_dct4_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\ff\src\ff.c" lastModified="143c34ff1e8">
+         <include file="..\..\..\ff\src\ff.h"/>
+         <include file="..\..\..\ff\src\diskio.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_interpolate_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_decimate_init_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_partial_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_mag_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_shift_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_mult_fast_q31.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_mult_real_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_def.h" lastModified="1379c9f7930">
+         <include file="..\..\..\USB_Lib\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_dot_prod_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_dct4_init_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_defines.h" lastModified="1379c7e3590">
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_mag_squared_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="13ff642bbc0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Include\arm_common_tables.h" lastModified="13ba95e3630">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13ff5971a40">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_usr.h" lastModified="1379c9f7930">
+         <include file="..\..\..\USB_Lib\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_cdc_vcp.h" lastModified="1405780ce90">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\USB_Lib\usbd_cdc_core.h"/>
+         <include file="..\..\..\USB_Lib\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FastMathFunctions\arm_sqrt_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_usr.c" lastModified="14015813cf0">
+         <include file="..\..\..\USB_Lib\usbd_usr.h"/>
+         <include file="..\..\..\USB_Lib\usbd_ioreq.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_lms_init_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h" lastModified="1405df32ac0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_cdc_vcp.c" lastModified="14c30f100b8">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\USB_Lib\usbd_cdc_vcp.h"/>
+         <include file="..\..\..\stm32f4_discovery.h"/>
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+         <include file="..\..\..\stm32f4_discovery.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_scale_q31.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_mult_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FastMathFunctions\arm_sin_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_biquad_cascade_df1_init_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_lattice_init_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\defines.h" lastModified="14eb5af5eb0">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_negate_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\dac.h" lastModified="1406212ccf0">
+      </source>
+      <source file="..\..\..\dac.c" lastModified="141df89bd00">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\dac.h"/>
+         <include file="..\..\..\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_var_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13ff22582c0">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="13ff642bbc0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_partial_fast_opt_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13ff5971a40">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14014738610">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Include\core_cmFunc.h" lastModified="13ba95e3e00">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_correlate_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_lms_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ControllerFunctions\arm_pid_init_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="1402af238a0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_add_q15.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ControllerFunctions\arm_sin_cos_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_mult_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_cfft_radix4_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Include\core_cm3.h" lastModified="13ba95e3a18">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_cfft_radix2_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_add_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="13ff22586a8">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_float_to_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_fill_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_rfft_init_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_rfft_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_scale_q7.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_init_q7.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_iir_lattice_init_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_lattice_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="141bfe90730">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_q15_to_float.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_trans_q15.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_iir_lattice_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\ff\src\integer.h" lastModified="141dfdc9fc0">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_dct4_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_max_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_q7.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_biquad_cascade_df1_32x64_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_mag_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FastMathFunctions\arm_cos_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_scale_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_dot_prod_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_sub_q7.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_opt_q7.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\BLE_Module\BLE.h" lastModified="14ce62f2680">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_sub_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\BLE_Module\BLE.c" lastModified="14f1d375d8a">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\stm32F4xx_fft.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\util.h"/>
+         <include file="..\..\..\BLE_Module\BLE.h"/>
+         <include file="..\..\..\user_if.h"/>
+         <include file="..\..\..\defines.h"/>
+         <include file="..\..\..\stm32adc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_conj_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_partial_opt_q7.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_mult_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\stm32adc.h" lastModified="14f1cf5b547">
+         <include file="..\..\..\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_lms_norm_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_core.h" lastModified="1379c9f7930">
+         <include file="..\..\..\USB_Lib\usb_dcd.h"/>
+         <include file="..\..\..\USB_Lib\usbd_def.h"/>
+         <include file="..\..\..\USB_Lib\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_sub_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\stm32adc.c" lastModified="14f1cf21f0d">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\defines.h"/>
+         <include file="..\..\..\stm32adc.h"/>
+      </source>
+      <source file="..\..\..\ff\src\sd_spi_stm32.c" lastModified="145cae094d8">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\ff\src\ffconf.h"/>
+         <include file="..\..\..\ff\src\diskio.h"/>
+         <include file="..\..\..\defines.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_core.c" lastModified="1379c9fb7b0">
+         <include file="..\..\..\USB_Lib\usbd_core.h"/>
+         <include file="..\..\..\USB_Lib\usbd_req.h"/>
+         <include file="..\..\..\USB_Lib\usbd_ioreq.h"/>
+         <include file="..\..\..\USB_Lib\usb_dcd_int.h"/>
+         <include file="..\..\..\USB_Lib\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FastMathFunctions\arm_sin_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\ff\src\option\cc950.c" lastModified="141dfdc97f0">
+         <include file="..\..\..\ff\src\ff.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_biquad_cascade_df1_init_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_rms_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_negate_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_decimate_fast_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_cdc_core.h" lastModified="1363a38c220">
+         <include file="..\..\..\USB_Lib\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_var_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\ff\src\option\ccsbcs.c" lastModified="141dfdc97f0">
+         <include file="..\..\..\ff\src\ff.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_cfft_radix4_init_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\BGT24_Ctrl.h" lastModified="141e410d390">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_fast_opt_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_cdc_core.c" lastModified="1363a38c220">
+         <include file="..\..\..\USB_Lib\usbd_cdc_core.h"/>
+         <include file="..\..\..\USB_Lib\usbd_desc.h"/>
+         <include file="..\..\..\USB_Lib\usbd_req.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_partial_fast_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_dot_prod_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\BGT24_Ctrl.c" lastModified="141e0174760">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\util.h"/>
+         <include file="..\..\..\BGT24_Ctrl.h"/>
+         <include file="..\..\..\PGA_Ctrl.h"/>
+         <include file="..\..\..\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_q7.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_ioreq.h" lastModified="1379c9f7930">
+         <include file="..\..\..\USB_Lib\usbd_def.h"/>
+         <include file="..\..\..\USB_Lib\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_correlate_fast_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_correlate_opt_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_req.h" lastModified="1379c9f7930">
+         <include file="..\..\..\USB_Lib\usbd_def.h"/>
+         <include file="..\..\..\USB_Lib\usbd_core.h"/>
+         <include file="..\..\..\USB_Lib\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_ioreq.c" lastModified="1379c9fb7b0">
+         <include file="..\..\..\USB_Lib\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_init_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_req.c" lastModified="137aee3d5a0">
+         <include file="..\..\..\USB_Lib\usbd_req.h"/>
+         <include file="..\..\..\USB_Lib\usbd_ioreq.h"/>
+         <include file="..\..\..\USB_Lib\usbd_desc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_power_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_abs_f32.c" lastModified="13ba95f2478">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_decimate_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_offset_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_cfft_radix2_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_biquad_cascade_df1_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_mean_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_rfft_init_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Circle_fitting.h" lastModified="14eeffb6190">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_min_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\Circle_fitting.c" lastModified="14ef0196140">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\Circle_fitting.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_sparse_init_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_init_f32.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="1405df32ac0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_conf.h" lastModified="140151d8980">
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_max_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\BLE_Module\apitypes.h" lastModified="13d49ff0aa0">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_interpolate_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FastMathFunctions\arm_cos_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_shift_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_scale_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_mult_real_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_partial_opt_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_dct4_init_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_negate_q7.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_sub_q15.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1402af238a0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_std_f32.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\User_String\user_string.h" lastModified="131ff815010">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_add_q7.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="13ff2275f50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\User_String\user_string.c" lastModified="131ff81e480">
+         <include file="..\..\..\User_String\user_string.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_lms_init_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="13ff225c140">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\gcode_parser.h" lastModified="14c2762c658">
+         <include file="..\..\..\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_sparse_q7.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_sub_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\gcode_parser.c" lastModified="14ebeede6b8">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\gcode_parser.h"/>
+         <include file="..\..\..\stm32serial.h"/>
+         <include file="..\..\..\PGA_Ctrl.h"/>
+         <include file="..\..\..\defines.h"/>
+         <include file="..\..\..\stm32adc.h"/>
+         <include file="..\..\..\util.h"/>
+      </source>
+      <source file="..\..\..\ff\src\option\unicode.c" lastModified="141dfdc97f0">
+         <include file="..\..\..\ff\src\ff.h"/>
+         <include file="..\..\..\ff\src\option\cc932.c"/>
+         <include file="..\..\..\ff\src\option\cc936.c"/>
+         <include file="..\..\..\ff\src\option\cc949.c"/>
+         <include file="..\..\..\ff\src\option\cc950.c"/>
+         <include file="..\..\..\ff\src\option\ccsbcs.c"/>
+      </source>
+      <source file="..\..\..\user_if.h" lastModified="145d0da13a0">
+         <include file="..\..\..\ff\src\ff.h"/>
+         <include file="..\..\..\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13ff22999a0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ff\src\option\cc936.c" lastModified="141dfdc97f0">
+         <include file="..\..\..\ff\src\ff.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_opt_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_max_q7.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\ff\src\option\cc932.c" lastModified="141dfdc97f0">
+         <include file="..\..\..\ff\src\ff.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_cfft_radix4_init_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_dot_prod_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_interpolate_init_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_core.h" lastModified="1379c7e3590">
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+         <include file="..\..\..\USB_Lib\usb_regs.h"/>
+         <include file="..\..\..\USB_Lib\usb_defines.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_desc.h" lastModified="1379c6d3dd0">
+         <include file="..\..\..\USB_Lib\usbd_def.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_add_q31.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_cfft_radix2_init_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_core.c" lastModified="1400fc49c30">
+         <include file="..\..\..\USB_Lib\usb_core.h"/>
+         <include file="..\..\..\USB_Lib\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_desc.c" lastModified="1363a3927b0">
+         <include file="..\..\..\USB_Lib\usbd_core.h"/>
+         <include file="..\..\..\USB_Lib\usbd_desc.h"/>
+         <include file="..\..\..\USB_Lib\usbd_req.h"/>
+         <include file="..\..\..\USB_Lib\usbd_conf.h"/>
+         <include file="..\..\..\USB_Lib\usb_regs.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_abs_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_offset_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\stm32f4_discovery.h" lastModified="13ff590ffc0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Include\core_cmInstr.h" lastModified="13ba95e3e00">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="14019ac1250">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_add_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_copy_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_sparse_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_float_to_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_lms_norm_init_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_min_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_biquad_cascade_df1_fast_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_inverse_f32.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\DOGM_LCD_LIB\driver_dogm128.h" lastModified="14208930490">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_init_q15.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\DOGM_LCD_LIB\driver_dogm128.c" lastModified="145d0ab6668">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\util.h"/>
+         <include file="..\..\..\defines.h"/>
+         <include file="..\..\..\DOGM_LCD_LIB\driver_dogm128.h"/>
+         <include file="..\..\..\DOGM_LCD_LIB\graphics.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="13ff22586a8">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_fast_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_trans_q31.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_iir_lattice_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ControllerFunctions\arm_pid_reset_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_correlate_fast_opt_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_dct4_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_mag_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_dot_prod_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_biquad_cascade_df1_32x64_init_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_partial_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_decimate_init_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\BLE_Module\commands.c" lastModified="1442f7de640">
+         <include file="..\..\..\BLE_Module\cmd_def.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_biquad_cascade_df2T_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_std_q15.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_mag_squared_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_float_to_q7.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_mult_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_conf.h" lastModified="1400fde8500">
+         <include file="..\..\..\stm32f4_discovery.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="14016100f70">
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_shift_q7.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\ff\src\option\syscall.c" lastModified="141dfdc9fc0">
+         <include file="..\..\..\ff\src\ff.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_scale_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\ARMCM4.h" lastModified="14029b284e0">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis\system_ARMCM4.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FastMathFunctions\arm_sin_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_biquad_cascade_df1_init_q31.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_bsp.h" lastModified="1379c7e3590">
+         <include file="..\..\..\USB_Lib\usb_core.h"/>
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_bsp.c" lastModified="13ff599b250">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\USB_Lib\usb_bsp.h"/>
+         <include file="..\..\..\USB_Lib\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_negate_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\ff\src\diskio.h" lastModified="143c34416c0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\ff\src\integer.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_lattice_init_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\StatisticsFunctions\arm_var_q31.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_fir_interpolate_init_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_cfft_radix2_init_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ControllerFunctions\arm_sin_cos_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="14f1d321311">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\stm32f4_discovery.h"/>
+         <include file="..\..\..\USB_Lib\usbd_cdc_core.h"/>
+         <include file="..\..\..\USB_Lib\usbd_usr.h"/>
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+         <include file="..\..\..\USB_Lib\usbd_desc.h"/>
+         <include file="..\..\..\util.h"/>
+         <include file="..\..\..\stm32adc.h"/>
+         <include file="..\..\..\stm32serial.h"/>
+         <include file="..\..\..\gcode_parser.h"/>
+         <include file="..\..\..\stm32F4xx_fft.h"/>
+         <include file="..\..\..\PGA_Ctrl.h"/>
+         <include file="..\..\..\defines.h"/>
+         <include file="..\..\..\dac.h"/>
+         <include file="..\..\..\DOGM_LCD_LIB\driver_dogm128.h"/>
+         <include file="..\..\..\DOGM_LCD_LIB\graphics.h"/>
+         <include file="..\..\..\DOGM_LCD_LIB\aux_routines.h"/>
+         <include file="..\..\..\Menu\menu.h"/>
+         <include file="..\..\..\BGT24_Ctrl.h"/>
+         <include file="..\..\..\ff\src\ff.h"/>
+         <include file="..\..\..\ff\src\diskio.h"/>
+         <include file="..\..\..\Circle_fitting.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_conv_fast_q15.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_correlate_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\FilteringFunctions\arm_lms_f32.c" lastModified="13ba95f3030">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\ControllerFunctions\arm_pid_init_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\MatrixFunctions\arm_mat_mult_f32.c" lastModified="13ba95f3800">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_cfft_radix4_f32.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\TransformFunctions\arm_cfft_radix2_q31.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\BasicMathFunctions\arm_offset_q7.c" lastModified="13ba95f2090">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\DSP_Lib\Source\SupportFunctions\arm_q7_to_q15.c" lastModified="13ba95f2860">
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Capricorn\Desktop\ATL_DG_F4\cmsis_lib /I..\..\..\..\..\Users\Capricorn\Desktop\ATL_DG_F4\Menu /I..\..\..\..\..\Users\Capricorn\Desktop\ATL_DG_F4 /I..\..\..\..\..\Users\Capricorn\Desktop\ATL_DG_F4\cmsis_boot /I..\..\..\..\..\Users\Capricorn\Desktop\ATL_DG_F4\USB_Lib /I..\..\..\..\..\Users\Capricorn\Desktop\ATL_DG_F4\ff /I..\..\..\..\..\Users\Capricorn /I..\..\..\..\..\Users\Capricorn\Desktop\ATL_DG_F4\ff\src /I..\..\..\..\..\Users\Capricorn\Desktop\ATL_DG_F4\cmsis\DSP_Lib\Include /I..\..\..\..\..\Users\Capricorn\Desktop\ATL_DG_F4\BLE_Module /I..\..\..\..\..\Users\Capricorn\Desktop\ATL_DG_F4\cmsis /I..\..\..\..\..\Users\Capricorn\Desktop\ATL_DG_F4\cmsis\DSP_Lib /I..\..\..\..\..\Users\Capricorn\Desktop\ATL_DG_F4\DOGM_LCD_LIB /I..\..\..\..\..\Users\Capricorn\Desktop\ATL_DG_F4\User_String /I..\..\..\..\..\Users\Capricorn\Desktop\ATL_DG_F4\cmsis_lib\include /I..\..\..\..\..\Users\Capricorn\Desktop">
+      <source file="..\..\..\util.h" lastModified="1402e9b6a80">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13ff22999a0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm32serial.h" lastModified="14015d446c0">
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+         <include file="..\..\..\USB_Lib\usb_regs.h"/>
+         <include file="..\..\..\USB_Lib\usb_defines.h"/>
+         <include file="..\..\..\USB_Lib\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="14019abd3d0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h" lastModified="14019abd3d0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14019ac1250">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_dcd_int.h" lastModified="1379c7e3590">
+         <include file="..\..\..\USB_Lib\usb_dcd.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_dcd_int.c" lastModified="137c89d11f0">
+         <include file="..\..\..\USB_Lib\usb_dcd_int.h"/>
+      </source>
+      <source file="..\..\..\ff\src\option\cc949.c" lastModified="141dfdc97f0">
+         <include file="..\..\..\ff\src\ff.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13ff22582c0">
+      </source>
+      <source file="..\..\..\PGA_Ctrl.c" lastModified="141e00cc010">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\util.h"/>
+         <include file="..\..\..\PGA_Ctrl.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13ff2276720">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\Phase_Unwrapping.c" lastModified="14ebfd917ac">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\stm32f4_discovery.h"/>
+         <include file="..\..\..\USB_Lib\usbd_cdc_core.h"/>
+         <include file="..\..\..\util.h"/>
+         <include file="..\..\..\defines.h"/>
+         <include file="..\..\..\cmsis\DSP_Lib\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="141bfe90730">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\DOGM_LCD_LIB\font.h" lastModified="131aaca2dd0">
+      </source>
+      <source file="..\..\..\Menu\menu.h" lastModified="141c67ef0f0">
+      </source>
+      <source file="..\..\..\USB_Lib\usb_dcd.h" lastModified="1379c7e3590">
+         <include file="..\..\..\USB_Lib\usb_core.h"/>
+      </source>
+      <source file="..\..\..\Menu\menu.c" lastModified="141c662b660">
+         <include file="..\..\..\Menu\menu.h"/>
+         <include file="..\..\..\User_String\user_string.h"/>
+      </source>
+      <source file="..\..\..\cmsis\system_ARMCM4.h" lastModified="140293a0920">
+      </source>
+      <source file="..\..\..\USB_Lib\usb_dcd.c" lastModified="137aee33190">
+         <include file="..\..\..\USB_Lib\usb_dcd.h"/>
+         <include file="..\..\..\USB_Lib\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="14019abd3d0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm32fxxx_it.h" lastModified="1379c6d45a0">
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\stm32fxxx_it.c" lastModified="14015fd1410">
+         <include file="..\..\..\stm32fxxx_it.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\USB_Lib\usb_core.h"/>
+         <include file="..\..\..\USB_Lib\usbd_core.h"/>
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+         <include file="..\..\..\USB_Lib\usbd_cdc_core.h"/>
+      </source>
+      <source file="..\..\..\ff\src\ff.h" lastModified="141dfdc97f0">
+         <include file="..\..\..\ff\src\integer.h"/>
+         <include file="..\..\..\ff\src\ffconf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="14019abd3d0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_regs.h" lastModified="13813edec60">
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_def.h" lastModified="1379c9f7930">
+         <include file="..\..\..\USB_Lib\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_defines.h" lastModified="1379c7e3590">
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="13ff642bbc0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13ff5971a40">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_usr.h" lastModified="1379c9f7930">
+         <include file="..\..\..\USB_Lib\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_usr.c" lastModified="14015813cf0">
+         <include file="..\..\..\USB_Lib\usbd_usr.h"/>
+         <include file="..\..\..\USB_Lib\usbd_ioreq.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h" lastModified="1405df32ac0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\dac.h" lastModified="1406212ccf0">
+      </source>
+      <source file="..\..\..\dac.c" lastModified="141df89bd00">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\dac.h"/>
+         <include file="..\..\..\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13ff22582c0">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="13ff642bbc0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13ff5971a40">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14014738610">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="1402af238a0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="141bfe90730">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\BLE_Module\BLE.h" lastModified="14ce62f2680">
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_core.h" lastModified="1379c9f7930">
+         <include file="..\..\..\USB_Lib\usb_dcd.h"/>
+         <include file="..\..\..\USB_Lib\usbd_def.h"/>
+         <include file="..\..\..\USB_Lib\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_core.c" lastModified="1379c9fb7b0">
+         <include file="..\..\..\USB_Lib\usbd_core.h"/>
+         <include file="..\..\..\USB_Lib\usbd_req.h"/>
+         <include file="..\..\..\USB_Lib\usbd_ioreq.h"/>
+         <include file="..\..\..\USB_Lib\usb_dcd_int.h"/>
+         <include file="..\..\..\USB_Lib\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\ff\src\option\cc950.c" lastModified="141dfdc97f0">
+         <include file="..\..\..\ff\src\ff.h"/>
+      </source>
+      <source file="..\..\..\ff\src\option\ccsbcs.c" lastModified="141dfdc97f0">
+         <include file="..\..\..\ff\src\ff.h"/>
+      </source>
+      <source file="..\..\..\BGT24_Ctrl.h" lastModified="141e410d390">
+      </source>
+      <source file="..\..\..\BGT24_Ctrl.c" lastModified="141e0174760">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\util.h"/>
+         <include file="..\..\..\BGT24_Ctrl.h"/>
+         <include file="..\..\..\PGA_Ctrl.h"/>
+         <include file="..\..\..\defines.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_ioreq.h" lastModified="1379c9f7930">
+         <include file="..\..\..\USB_Lib\usbd_def.h"/>
+         <include file="..\..\..\USB_Lib\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_req.h" lastModified="1379c9f7930">
+         <include file="..\..\..\USB_Lib\usbd_def.h"/>
+         <include file="..\..\..\USB_Lib\usbd_core.h"/>
+         <include file="..\..\..\USB_Lib\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_ioreq.c" lastModified="1379c9fb7b0">
+         <include file="..\..\..\USB_Lib\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_req.c" lastModified="137aee3d5a0">
+         <include file="..\..\..\USB_Lib\usbd_req.h"/>
+         <include file="..\..\..\USB_Lib\usbd_ioreq.h"/>
+         <include file="..\..\..\USB_Lib\usbd_desc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="1405df32ac0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_conf.h" lastModified="140151d8980">
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1402af238a0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\User_String\user_string.h" lastModified="131ff815010">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="13ff2275f50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\User_String\user_string.c" lastModified="131ff81e480">
+         <include file="..\..\..\User_String\user_string.h"/>
+      </source>
+      <source file="..\..\..\ff\src\option\unicode.c" lastModified="141dfdc97f0">
+         <include file="..\..\..\ff\src\ff.h"/>
+         <include file="..\..\..\ff\src\option\cc932.c"/>
+         <include file="..\..\..\ff\src\option\cc936.c"/>
+         <include file="..\..\..\ff\src\option\cc949.c"/>
+         <include file="..\..\..\ff\src\option\cc950.c"/>
+         <include file="..\..\..\ff\src\option\ccsbcs.c"/>
+      </source>
+      <source file="..\..\..\user_if.h" lastModified="145d0da13a0">
+         <include file="..\..\..\ff\src\ff.h"/>
+         <include file="..\..\..\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13ff22999a0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ff\src\option\cc936.c" lastModified="141dfdc97f0">
+         <include file="..\..\..\ff\src\ff.h"/>
+      </source>
+      <source file="..\..\..\ff\src\option\cc932.c" lastModified="141dfdc97f0">
+         <include file="..\..\..\ff\src\ff.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_core.h" lastModified="1379c7e3590">
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+         <include file="..\..\..\USB_Lib\usb_regs.h"/>
+         <include file="..\..\..\USB_Lib\usb_defines.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usbd_desc.h" lastModified="1379c6d3dd0">
+         <include file="..\..\..\USB_Lib\usbd_def.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_core.c" lastModified="1400fc49c30">
+         <include file="..\..\..\USB_Lib\usb_core.h"/>
+         <include file="..\..\..\USB_Lib\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\stm32f4_discovery.h" lastModified="13ff590ffc0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="14019ac1250">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\ARMCM4.h" lastModified="14029b284e0">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis\system_ARMCM4.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_bsp.h" lastModified="1379c7e3590">
+         <include file="..\..\..\USB_Lib\usb_core.h"/>
+         <include file="..\..\..\USB_Lib\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\USB_Lib\usb_bsp.c" lastModified="13ff599b250">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\USB_Lib\usb_bsp.h"/>
+         <include file="..\..\..\USB_Lib\usbd_conf.h"/>
+      </source>
+   </includePath>
+</dependencies>
